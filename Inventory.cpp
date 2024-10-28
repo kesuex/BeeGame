@@ -84,13 +84,13 @@ void Inventory::draw(sf::RenderWindow& window) {
 
 void Inventory::increasePollenAmount() {
     pollenAmount++; // Увеличиваем количество пыльцы
-    pollenText.setString(std::to_string(pollenAmount)); // Обновляем текст
+    pollenText.setString(std::to_string(pollenAmount)); 
 }
 
 void Inventory::decreasePollenAmount()
 {
     pollenAmount--;
-    pollenText.setString(std::to_string(pollenAmount)); // Обновляем текст
+    pollenText.setString(std::to_string(pollenAmount)); 
 }
 
 void Inventory::decreaseLife(float damage) {
